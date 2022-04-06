@@ -1,25 +1,23 @@
 import {useQuill }from 'react-quilljs';
 import 'react-quill/dist/quill.snow.css';
+import styled from "styled-components";
+import "./editor.css"
 
 
 
 export default function QuillEditor(){
-    const theme = "snow";
     // const theme = 'bubble';
-  
-    const modules = {
-    };
+    const theme = "snow";
+    const scrollingContainer = '#scroll-container';
   
     const placeholder = "Compose an epic...";
   
-    const formats = ["bold", "italic", "underline", "strike"];
-  
-    const { quillRef } = useQuill({ theme, modules, formats, placeholder });
-  
+    const { quillRef } = useQuill( {theme, scrollingContainer ,placeholder});
+
     return (
-      <div style={{ width: "auto", height: "auto"}}>
-        <div ref={quillRef} />
-      </div>
+    <div id="quill-container">
+      <div ref={quillRef}/>
+    </div>
     );
   };
   
