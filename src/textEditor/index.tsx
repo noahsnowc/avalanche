@@ -17,7 +17,7 @@ export default function QuillEditor(){
     const { quillRef } = useQuill({ theme, modules, formats, placeholder });
   
     return (
-      <div style={{ width: "98.5vw", height: "80vh"}}>
+      <div style={{ width: "auto", height: "auto"}}>
         <div ref={quillRef} />
       </div>
     );
