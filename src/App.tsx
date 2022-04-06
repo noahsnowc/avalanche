@@ -5,7 +5,7 @@ import Sidebar from './sideBar';
 
 
 /*TODO: Create Styling support for collapsing menu
-TODO: add document saving
+TODO: add document saving 
 TODO: Add Plot planner
 TODO: add character hub
 TODO: add relationship mapper
