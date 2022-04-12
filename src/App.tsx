@@ -12,6 +12,7 @@ TODO: add relationship mapper
 TODO: add Structure mapper
 TODO: add auto documenting of characters or places
 TODO: add dark mode
+TODO: Programmatic relationship tracker: Idea-> Characters exist as functions that other characters and events are inputs to, with plot/events being the output.
 */
 
 function App() {
