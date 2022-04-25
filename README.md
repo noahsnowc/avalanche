@@ -1,5 +1,20 @@
 # Avalanche
 
+## Fiction as Functions!
+
+Welcome to the Avalanche Github repo. The goal of this project is to create novel writing software that treats characters, settings, plots, etc as functions with outputs affected by each other.
+
+Example:
+* Character A likes Apples
+* Character B hates Apples
+* Character B tells Character A how much they hate apples
+* Character A evaluates the statement and produces a result
+* Result -> A now dislikes character B.
+
+Character functions will be created by the author and should automatically evaluate as the author writes.
+
+Graphs will be created based on these functions so that the author can easily track what 
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -26,19 +41,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
